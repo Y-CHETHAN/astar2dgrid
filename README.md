@@ -1,11 +1,11 @@
 # A* Path Finding Algorithm for 2D Grid World
-## AIM
+## AIM:
 
 To develop a code to find the route from the source to the destination point using A* algorithm for 2D grid world.
 
-## THEORY
+## THEORY:
 We try to use the A* algorithm to navigate through a 2D Grid environment. We provide the algorithm with the initial and goal states, and then let the algorithm calculate the Heuristic function to decide the path nodes. And finally, we return the path nodes to the user.
-## DESIGN STEPS
+## DESIGN STEPS:
 
 ### STEP 1:
 Build a 2D grid world with initial state and goal state
@@ -18,9 +18,9 @@ Define the function for the distance function for the heuristic function
 ### STEP 4:
 Pass all the values to the GridProblem, and print the solution path.
 
-## Draw the 2D 
+## Draw the 2D:
 ![73c7c788-2277-4aae-bf0b-80fd17f1f51f](https://user-images.githubusercontent.com/75234991/168859832-593365ac-9826-4e60-8db0-a9e222b5ef91.jpg)
-## PROGRAM
+## PROGRAM:
 ```
 %matplotlib inline
 import matplotlib.pyplot as plt
